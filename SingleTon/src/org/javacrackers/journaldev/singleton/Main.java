@@ -74,7 +74,6 @@ class TrySingletonThread implements Runnable {
       *   
       * @see java.lang.Runnable#run()  
       */  
-     @Override  
      public void run() {  
           System.out.println(Thread.currentThread().getName()  
                     + " got singleton with ID: "  
